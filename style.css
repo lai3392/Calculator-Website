@@ -72,19 +72,19 @@ form input.deletecolor{
 }
 
 .color:nth-child(1) {
-    background-color: #ff5733;
+    background-color: goldenrod;
 }
 
 .color:nth-child(2) {
-    background-color: #33ff57;
+    background-color: darkred;
 }
 
 .color:nth-child(3) {
-    background-color: #5733ff;
+    background-color: cadetblue;
 }
 
 .color:nth-child(4) {
-    background-color: #33ffd8;
+    background-color: dimgrey;
 }
 
 
