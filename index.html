@@ -10,15 +10,17 @@
     <div class="container">
         <div class="calculator">
 
-            <div class="instruction">
-                Click here to change the background colour!
+        
+            <div class="instruction" id="calculatorInstruction">
+                Click here to change the Calculator colour!
             </div>
-            
+
             <div class="color-palette">
-                <div class="color" onclick="changeColor('#ff5733')"></div>
-                <div class="color" onclick="changeColor('#33ff57')"></div>
-                <div class="color" onclick="changeColor('#5733ff')"></div>
-                <div class="color" onclick="changeColor('#33ffd8')"></div>
+                
+                <div class="color" onclick="changeCalculatorColor('goldenrod', 'calculatorInstruction')"></div>
+                <div class="color" onclick="changeCalculatorColor('darkred', 'calculatorInstruction')"></div>
+                <div class="color" onclick="changeCalculatorColor('cadetblue', 'calculatorInstruction')"></div>
+                <div class="color" onclick="changeCalculatorColor('dimgrey', 'calculatorInstruction')"></div>
             </div>
 
             <form>
